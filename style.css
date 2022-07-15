@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    background-image: url('mount3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div.content{
+    padding:0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid orange;
+}
+
+div.container1{
+    display: inline-block;
+    margin-left: 2px;
+}
+div.container1 img{
+    height: 13vh;
+    width: 13vh;
+    display: inline-block;
+}
+div.container2{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+}
+div.container2 span.head{
+    font-size: 6vh;
+    width: 9vh;
+    display: inline;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    margin: auto;
+    padding: auto;
+    color: olive;
+    line-height: normal;
+    position: relative;
+}
+div.container2 span.subhead{
+    font-size: 4vh;
+    color: white;
+}
+div.navbar{
+    display: flex;
+    justify-content: center;
+}
+div.navbar a{
+    text-decoration: none;
+    color: rgb(110, 42, 13);
+}
+div.navbar li{
+    list-style-type: none;
+    display: inline;
+    
+    padding: 4px;
+    border-right: 2px solid black;
+}
+div.navbar li.contact{
+    border-right: none!important;
+}
+div.navbar li:hover{
+    background-color: rgb(246, 224, 83);
+    border-radius: 10px;
+}
+div.content2{
+    background-color: white;
+    opacity: 0.9;
+    width: 40%;
+    height: fit-content;
+    padding: 1vh;
+    margin-left: 5rem;
+    border-radius: 20px;
+    margin-top: 17rem;
+}
+div.content2 p{
+    font-size: large;
+}
+div.content2 div.head{
+    display: flex;
+    justify-content: center;
+}
+div.content2 h3{
+    margin: 0;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+div.content2 img{
+    margin: 0;
+    padding: 0;
+    width: 10rem;
+    height: 9rem;
+    top:23.8rem;
+    position: absolute;
+}
+div.content3{
+    position: absolute;
+    display: inline;
+    top: 24.3rem;
+    right: 5rem;
+
+}
+
+div.content3 img{
+    width:200px;
+    height:225px;
+    margin: 5px;
+}
+div.footer{
+    bottom:0;
+    position: absolute;
+}

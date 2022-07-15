@@ -1,0 +1,32 @@
+div.container{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    opacity: 0.9;
+    border-radius: 5px;
+   width: 50%;
+}
+fieldset{
+    border: none;
+    text-align: center;
+}
+button {
+    color:#ffffff;
+    background-color: rgb(67, 67, 255);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+button:hover{
+    background-color: gold;
+    color: rgb(109, 109, 249);
+}
+input {
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+label {
+    color: olive;
+    font-weight: bold;
+}
